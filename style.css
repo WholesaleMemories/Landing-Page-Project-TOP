@@ -39,17 +39,23 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
+    padding: 5vw 0;
+}
+
+.welcomeLeft {
+    margin-left: 15vw;
 }
 
 .contentWelcome img {
     width: 30vw;
     height: auto;
+    margin-right: 15vw;
 }
 
 .welcomeLeft h1 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
 .welcomeLeft p {
@@ -58,6 +64,6 @@ body {
 }
 
 .welcomeLeft button {
-    background-color: #3882F6;
+    background-color: #3882f6;
     color: #f9faf8;
 }
