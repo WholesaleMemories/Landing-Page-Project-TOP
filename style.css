@@ -1,16 +1,16 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.headerLeft{
+.headerLeft {
     margin-left: 15vw;
     margin-right: auto;
     font-weight: bold;
@@ -18,7 +18,7 @@ body {
 
 .header p {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
 .headerRight {
@@ -28,8 +28,18 @@ body {
     justify-content: space-between;
     gap: 20px;
 }
+
 .header a {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     text-decoration: none;
+}
+
+.contentWelcome {
+    background-color: #1f2937;
+}
+
+.contentWelcome img {
+    width: 30vw;
+    height: auto;
 }
