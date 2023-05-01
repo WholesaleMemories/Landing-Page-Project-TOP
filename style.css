@@ -72,3 +72,19 @@ body {
     border-radius: 8px;
     padding: .5vw 2vw;
 }
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    margin: 10vh 20vw;
+    gap: 5vw;
+}
+
+.cards img {
+    border: solid 2px #3882F6;
+    border-radius: 9px;
+}
