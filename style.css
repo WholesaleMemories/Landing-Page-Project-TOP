@@ -81,7 +81,7 @@ body {
 .cards {
     display: flex;
     margin: 10vh 20vw;
-    gap: 5vw;
+    gap: 2vw;
 }
 
 .cards img {
