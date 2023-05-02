@@ -125,3 +125,39 @@ body {
     font-size: 24px;
     align-self: flex-end;
 }
+
+.ctaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 30vh;
+}
+
+.ctaBox {
+    display: flex;
+    background-color: #3882F6; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 10vh;
+    gap: 15vh;
+    flex-basis: 100%;
+    border-radius: 10px;
+}
+
+.ctaLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaLeft p, .ctaLeft h3, .bottomButton {
+    color: white;
+}
+
+.bottomButton {
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: .5vw 2vw;
+}
