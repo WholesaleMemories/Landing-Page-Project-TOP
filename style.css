@@ -108,6 +108,11 @@ body {
     padding: 15vh 30vw;
 }
 
+.quoteAndAttribution {
+    display: flex;
+    flex-direction: column;
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
@@ -115,4 +120,8 @@ body {
     color: #1F2937;
 }
 
-.attribution
+.attribution {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
