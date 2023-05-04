@@ -105,13 +105,13 @@ body {
     border-radius: 9px;
 }
 
-.cards p {
+.cards figcaption {
     font-size: 18px;
     color: #1f2937;
 }
 
 .quoteContainer {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     display: flex;
     padding: 15vh 30vw;
 }
@@ -125,7 +125,7 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color: #1f2937;
 }
 
 .attribution {
@@ -143,7 +143,7 @@ body {
 
 .ctaBox {
     display: flex;
-    background-color: #3882F6; 
+    background-color: #3882f6;
     align-items: center;
     justify-content: space-between;
     padding: 5vh 10vh;
@@ -157,28 +157,30 @@ body {
     flex-direction: column;
 }
 
-.ctaLeft p, .ctaLeft h3, .bottomButton {
+.ctaLeft p,
+.ctaLeft h3,
+.bottomButton {
     color: white;
 }
 
 .bottomButton {
-    background-color: #3882F6;
+    background-color: #3882f6;
     border-color: white;
     border-style: solid;
     border-width: 1px;
     border-radius: 7px;
-    padding: .5vw 2vw;
+    padding: 0.5vw 2vw;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #1f2937;
 }
 
 .footNote {
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 18px;
     padding: 5vh 0;
 }
