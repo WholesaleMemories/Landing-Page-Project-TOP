@@ -47,11 +47,16 @@ body {
 
 .welcomeLeft {
     margin-left: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: auto;
 }
 
 .contentWelcome img {
-    width: 30vw;
-    height: auto;
+    height: 40vh;
+    width: auto;
     margin-right: 12vw;
 }
 
@@ -59,6 +64,7 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    line-height: 1em;
 }
 
 .welcomeLeft p {
@@ -72,6 +78,7 @@ body {
     color: #f9faf8;
     border-radius: 8px;
     padding: 0.5vw 2vw;
+    max-width: fit-content;
 }
 
 .cardContainer {
