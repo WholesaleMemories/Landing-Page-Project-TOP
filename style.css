@@ -1,10 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
+    --dark-background: #1f2937;
+    --blue: #3882F6;
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: var(--dark-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +39,7 @@ body {
 }
 
 .contentWelcome {
-    background-color: #1f2937;
+    background-color: var(--dark-background);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -73,7 +75,7 @@ body {
 }
 
 .welcomeLeft button {
-    background-color: #3882f6;
+    background-color:var(--blue);
     border: none;
     color: #f9faf8;
     border-radius: 8px;
@@ -101,7 +103,7 @@ body {
 }
 
 .cards img {
-    border: solid 2px #3882f6;
+    border: var(--blue);
     border-radius: 9px;
 }
 
@@ -143,7 +145,7 @@ body {
 
 .ctaBox {
     display: flex;
-    background-color: #3882f6;
+    background-color:var(--blue);
     align-items: center;
     justify-content: space-between;
     padding: 5vh 10vh;
@@ -164,7 +166,7 @@ body {
 }
 
 .bottomButton {
-    background-color: #3882f6;
+    background-color:var(--blue);
     border-color: white;
     border-style: solid;
     border-width: 1px;
@@ -176,7 +178,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: var(--dark-background);
 }
 
 .footNote {
